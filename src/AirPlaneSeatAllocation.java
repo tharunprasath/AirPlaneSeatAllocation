@@ -88,9 +88,10 @@ public class AirPlaneSeatAllocation {
 		}
 		
 		
-		System.out.println("W - Window Seat");
-		System.out.println("M - Middle Seat");
-		System.out.println("A - Asile Seat\n\n\n");
+		System.out.println(" W - Window Seat");
+		System.out.println(" M - Middle Seat");
+		System.out.println(" A - Asile Seat");
+		System.out.println("|| - Pathway\n\n\n");
 		
 		
 		for(int i=zeroIndex;i<maxArrayIndex;i++){
@@ -112,7 +113,9 @@ public class AirPlaneSeatAllocation {
 					}
 					
 				}
-				System.out.print("        ||        "); 
+				if(j<inputArrayLength-1) {
+					System.out.print("        ||        "); 					
+				}
 			}
 			System.out.println();
 		}
