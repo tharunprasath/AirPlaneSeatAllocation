@@ -22,6 +22,7 @@ public class AirPlaneSeatAllocation {
 	public static final int windoSeat = 1;
 	public static final int middleSeat = 2;
 
+
 	
 	public static void main(String[] args) {
 		String inputArray[] = {"32","43","23","34"};
